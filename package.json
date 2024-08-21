@@ -1,14 +1,10 @@
 {
-  "name": "data_collector",
-  "version": "1.0.0",
-  "main": "index.js",
+  "name": "daily_news",
+  "main": "fetch_cctv_news.js",
   "type": "module",
   "scripts": {
-    "index": "node index.js",
-    "colab": "node colab.js"
+    "index": "node fetch_cctv_news.js"
   },
-  "author": "",
-  "license": "ISC",
   "dependencies": {
     "jsdom": "^20.0.0",
     "node-fetch": "^3.2.10",
