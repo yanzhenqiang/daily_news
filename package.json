@@ -3,7 +3,8 @@
   "main": "fetch_cctv_news.js",
   "type": "module",
   "scripts": {
-    "index": "node fetch_cctv_news.js"
+    "fetch_cctv_news": "node fetch_cctv_news.js",
+    "fetch_zh_hot_news": "node fetch_zh_hot_news.js"
   },
   "dependencies": {
     "jsdom": "^20.0.0",
