@@ -1,0 +1,17 @@
+{
+  "name": "data_collector",
+  "version": "1.0.0",
+  "main": "index.js",
+  "type": "module",
+  "scripts": {
+    "index": "node index.js",
+    "colab": "node colab.js"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "jsdom": "^20.0.0",
+    "node-fetch": "^3.2.10",
+    "@playwright/test": "^1.17.1"
+  }
+}
